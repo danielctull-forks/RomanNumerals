@@ -48,8 +48,6 @@ jobs:
       run: swift build --triple wasm32-unknown-wasi --enable-test-discovery -v -c release
     - name: Debug Build
       run: swift build --triple wasm32-unknown-wasi --enable-test-discovery -v -c debug
-    - name: Debug Test
-      run: swift test --triple wasm32-unknown-wasi --enable-test-discovery -v -c debug
 
   macos:
     name: MacOS
