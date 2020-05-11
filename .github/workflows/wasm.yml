@@ -14,5 +14,5 @@ jobs:
         uses: swiftwasm/swiftwasm-action@master
       - name: Test
         uses: swiftwasm/swiftwasm-action@master
-          with:
-            swift-action: test --triple wasm32-unknown-wasi
+        with:
+          swift-action: test --triple wasm32-unknown-wasi
